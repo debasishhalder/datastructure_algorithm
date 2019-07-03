@@ -13,8 +13,16 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		IntQueue q = new IntQueue();
+		q.enQueue(10);
+		q.enQueue(2);
+		q.enQueue(8);
+		
+		/*System.out.println(q.deQueue());
+		System.out.println(q.deQueue());
+		System.out.println(q.deQueue());*/
+		
+		q.showAll();
 	}
 
 }
